@@ -5,6 +5,7 @@ public class Principal {
         //Persona P1 = new Persona();
         //Estudiante e1 = new Estudiante();
 
+        //mm
         //e1.mostrarInfo();
         //P1.mostrar();
     }
