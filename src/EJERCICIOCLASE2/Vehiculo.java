@@ -17,6 +17,9 @@ public class Vehiculo {
     public String getModelo(){
         return modelo;
     }
+    public int getAño(){
+        return año;
+    }
 
     public void mostrarInfo(){
         System.out.println("Marca: " + marca);
