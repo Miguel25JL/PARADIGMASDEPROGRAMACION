@@ -3,13 +3,13 @@ package EJERCICIOCLASE2;
 public class VehiculoAereo extends Vehiculo{
     String nombreConductor;
     String numPasajeros;
-    String tipoVehiculo;
+    String alturaMaxima;
 
-    public VehiculoAereo(String marca, String modelo, int año, String nombreConductor, String numPasajeros, String tipoVehiculo) {
+    public VehiculoAereo(String marca, String modelo, int año, String nombreConductor, String numPasajeros, String alturaMaxima) {
         super(marca, modelo, año);
         this.nombreConductor=nombreConductor;
         this.numPasajeros=numPasajeros;
-        this.tipoVehiculo=tipoVehiculo;
+        this.alturaMaxima=alturaMaxima;
     }
 
     //public void verDatos(){
