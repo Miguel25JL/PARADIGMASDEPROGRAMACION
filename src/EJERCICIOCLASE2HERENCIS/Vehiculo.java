@@ -1,4 +1,4 @@
-package EJERCICIOCLASE2;
+package EJERCICIOCLASE2HERENCIS;
 
 public class Vehiculo {
     private String marca;
@@ -21,7 +21,7 @@ public class Vehiculo {
         return año;
     }
 
-    public void mostrarInfo(){
+    public void mostrarInfoVehiculo(){
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
         System.out.println("Año: " + año);
