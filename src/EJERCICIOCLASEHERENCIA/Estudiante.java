@@ -46,12 +46,17 @@ public class Estudiante extends Persona implements IntAlumno1,IntAlumno2{
 
     @Override
     public void mostrarCurso() {
-
+        System.out.println("curso: ");
     }
 
     @Override
     public void mostrarGrado() {
 
+    }
+
+    @Override
+    public int obtenerAnnosdeCarrera() {
+        return 0;
     }
 
     @Override
