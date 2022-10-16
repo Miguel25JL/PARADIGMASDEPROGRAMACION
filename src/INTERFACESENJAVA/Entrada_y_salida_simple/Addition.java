@@ -20,7 +20,7 @@ public class Addition
 
         int sum = number1 + number2;
 
-        // display result in a JOptionPane message dialog
+        // display result in a JOptionPane message  dialog
         JOptionPane.showMessageDialog(null, "The sum is " + sum,
                 "Sum of two integers", JOptionPane.PLAIN_MESSAGE);
     }
