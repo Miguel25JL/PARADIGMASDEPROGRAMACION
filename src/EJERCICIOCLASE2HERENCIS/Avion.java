@@ -5,7 +5,6 @@ public class Avion extends VehiculoAereo{
     int numTurbinas;
     String tipoAvion;
 
-
     public Avion(String marca, String modelo, int año, String nombreConductor, int numPasajeros, String alturaMaxima, String numAlerones, int numTurbinas, String tipoAvion) {
         super(marca, modelo, año, nombreConductor, numPasajeros, alturaMaxima);
         this.nombreConductor=nombreConductor;
